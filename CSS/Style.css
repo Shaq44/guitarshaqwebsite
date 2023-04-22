@@ -1,0 +1,61 @@
+body{
+    font-family: "Gloria Hallelujah";
+    /**-webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;**/
+    background-image: url("/images/IMG-0084.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 70%;
+    color:black;
+
+
+}
+
+
+
+/**img{
+    width:380px;
+    height:100%;
+
+}**/
+
+.menu-bar{
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin:40px ;
+    padding: 30px;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+#home:hover{
+    color:white;
+    cursor: pointer;
+}
+
+#contacts:hover{
+    color:white;
+    cursor: pointer;
+}
+
+#music:hover{
+    color:white;
+    cursor: pointer;
+}
+
+#about:hover{
+    color:white;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    
+}

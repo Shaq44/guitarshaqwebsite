@@ -1,5 +1,57 @@
 body{
     font-family: "Gloria Hallelujah";
+    background-color: black;
+    color:white;
 
     
+}
+
+.title{
+    text-align: center;
+}
+
+.menu-bar{
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin:40px ;
+    padding: 30px;
+    justify-content: space-around;
+    text-align: center;
+   /** grid-row: 1;
+    grid-column: 1;**/
+    color: whitesmoke;
+    font-size: 1em;
+    
+
+}
+
+#home:hover{
+    color:white;
+    cursor: pointer;
+}
+
+#contacts:hover{
+    color:white;
+    cursor: pointer;
+}
+
+#music:hover{
+    color:white;
+    cursor: pointer;
+}
+
+#about:hover{
+    color:white;
+    cursor: pointer;
+}
+
+#title:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.socials{
+color: white;
 }

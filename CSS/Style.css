@@ -4,40 +4,52 @@ body{
     -moz-background-size: cover;
     -o-background-size:cover;
     background-size: cover;**/
-    background-image: url("/images/IMG-0084.jpg");
+    /**background-image: url("/images/IMG-0084.jpg");
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 70%;
+    background-attachment: fixed;**/
+    opacity: 120%;
     color:black;
+    background-color: black;
 
 
 }
 
+img{
+    /**border-radius: 50%;**/
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 55%;
+    border-radius:50%;
+}
 
 
-/**img{
-    width:380px;
-    height:100%;
+.container{
+    /**This is the parent object and when you change a position it is in reference to this 
+    container. In this container there is the menu-bar and title**/
+   }
 
-}**/
 
 .menu-bar{
     list-style: none;
-    position: relative;
     display: flex;
     flex-direction: row;
     margin:40px ;
-    padding: 30px;
-    justify-content: space-around;
+    /*padding: 30px;*/
+    justify-content: space-between;
     text-align: center;
+   /** grid-row: 1;
+    grid-column: 1;**/
+    color: whitesmoke;    
 
 }
 
 #home:hover{
     color:white;
-    cursor: pointer;
+    cursor:pointer;
 }
 
 #contacts:hover{
@@ -55,7 +67,10 @@ body{
     cursor: pointer;
 }
 
+
 .title{
     text-align: center;
-    
+    color: white;
+    /**grid-row:1;
+    grid-column: 2;**/
 }
